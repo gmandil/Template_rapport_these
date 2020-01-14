@@ -21,13 +21,14 @@
 
 
 \long\def\Universite#1{\gdef\@Universite{#1}}
-\def\@Universite{\includegraphics[width=9.36cm,clip]{logoUSMB}}
+\def\@Universite{\includegraphics[width=9.36cm,clip]{fichiers_latex/Page_de_garde/Figure/logo_USMB_nb.jpg}}
 
 \long\def\Grade#1{\gdef\@Grade{#1}}
-\def\@Grade{\uppercase{docteur de la communauté université \\grenoble alpes}}   
+\def\@Grade{\uppercase{docteur de l'université savoie mont blant}}   
 
 \long\def\Specialite#1{\gdef\@Specialite{#1}}
-\def\@Specialite{Sciences pour l'Ingénieur}
+\def\@Specialite{Indiquer la spécialité qui figure sur votre carte
+d’étudiant}
 
 \long\def\Arrete#1{\gdef\@Arrete{#1}}
 \def\@Arrete{25 mai 2016}  
@@ -42,10 +43,10 @@
 \def\@CoDirecteur{}
 
 \long\def\Laboratoire#1{\gdef\@Laboratoire{#1}}
-\def\@Laboratoire{Laboratoire SYMME} % : SYstèmes et Matériaux pour la MÉcatronique}   
+\def\@Laboratoire{Laboratoire LISTIC}  
 
 \long\def\EcoleDoctorale#1{\gdef\@EcoleDoctorale{\bfseries#1}}
-\def\@EcoleDoctorale{l'École Doctorale SISEO} % : Sciences et Ingénierie des Systèmes, de l'Environnement et des Organisations}       
+\def\@EcoleDoctorale{l'École Doctorale SISEO}       
 
 \long\def\Titre#1{\gdef\@Titre{#1}}
 \def\@Titre{}	
@@ -149,7 +150,7 @@
 
 \newcommand{\@ThesisJury}{\begin{tabular}{@{}p{12.5cm}@{}}\@Jury\end{tabular}}
 
-\newcommand{\@UniversityLogo}{\includegraphics[height=28cm]{logo_Univ_Grenoble_V}}
+\newcommand{\@UniversityLogo}{\includegraphics[height=28cm]{}}
 \newcommand\UniversityLogo[1]{\renewcommand{\@UniversityLogo}{{#1}}}
 
 \newcommand\@UGthesepage@height{28cm}
