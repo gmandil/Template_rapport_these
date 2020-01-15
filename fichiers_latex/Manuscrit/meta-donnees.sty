@@ -21,7 +21,7 @@
 
 
 \long\def\Universite#1{\gdef\@Universite{#1}}
-\def\@Universite{\includegraphics[width=9.36cm,clip]{logo_USMB_nb}}
+\def\@Universite{\includegraphics[width=7.36cm,right]{logo_USMB_nb}}
 
 \long\def\Grade#1{\gdef\@Grade{#1}}
 \def\@Grade{\uppercase{docteur de l'université savoie mont blant}}   
@@ -61,17 +61,17 @@ d’étudiant}
 \def\@Jury{}        
 
 
-\def\UGTPresident#1#2{{\bfseries\fontsize{12}{10}\selectfont#1}\\[-2mm]#2, Président\\[0mm]}
-\def\UGTPresidente#1#2{{\bfseries\fontsize{12}{10}\selectfont#1}\\[-2mm] #2, Présidente\\[0mm]}
-\def\UGTRapporteur#1#2{{\bfseries\fontsize{12}{10}\selectfont#1}\\ [-2mm]#2, Rapporteur\\[0mm]}
-\def\UGTExaminateur#1#2{{\bfseries\fontsize{12}{10}\selectfont#1}\\ [-2mm]#2, Examinateur\\[0mm]}
-\def\UGTExaminatrice#1#2{{\bfseries\fontsize{12}{10}\selectfont#1}\\ [-2mm]#2, Examinatrice\\[0mm]}
-\def\UGTInvitee#1#2{{\bfseries\fontsize{12}{10}\selectfont#1}\\ [-2mm]#2, Invitée\\[0mm]}
-\def\UGTInvite#1#2{{\bfseries\fontsize{12}{10}\selectfont#1}\\ [-2mm]#2, Invité\\[0mm]}
-\def\UGTDirecteur#1#2{{\bfseries\fontsize{12}{10}\selectfont#1}\\ [-2mm]#2, Directeur de thèse\\[0mm]}
-\def\UGTDirectrice#1#2{{\bfseries\fontsize{12}{10}\selectfont#1}\\ [-2mm]#2, Directrice de thèse\\[0mm]}
-\def\UGTCoDirecteur#1#2{{\bfseries\fontsize{12}{10}\selectfont#1}\\ [-2mm]#2, Co-Directeur de thèse\\[0mm]}
-\def\UGTCoEncadrant#1#2{{\bfseries\fontsize{12}{10}\selectfont#1}\\ [-2mm]#2, Co-Encadrant de thèse\\[0mm]}
+\def\UGTPresident#1#2{{\bfseries\fontsize{11}{10}\selectfont#1}\\[-2mm]#2, Président\\[0mm]}
+\def\UGTPresidente#1#2{{\bfseries\fontsize{11}{10}\selectfont#1}\\[-2mm] #2, Présidente\\[0mm]}
+\def\UGTRapporteur#1#2{{\bfseries\fontsize{11}{10}\selectfont#1}\\ [-2mm]#2, Rapporteur\\[0mm]}
+\def\UGTExaminateur#1#2{{\bfseries\fontsize{11}{10}\selectfont#1}\\ [-2mm]#2, Examinateur\\[0mm]}
+\def\UGTExaminatrice#1#2{{\bfseries\fontsize{11}{10}\selectfont#1}\\ [-2mm]#2, Examinatrice\\[0mm]}
+\def\UGTInvitee#1#2{{\bfseries\fontsize{11}{10}\selectfont#1}\\ [-2mm]#2, Invitée\\[0mm]}
+\def\UGTInvite#1#2{{\bfseries\fontsize{11}{10}\selectfont#1}\\ [-2mm]#2, Invité\\[0mm]}
+\def\UGTDirecteur#1#2{{\bfseries\fontsize{11}{10}\selectfont#1}\\ [-2mm]#2, Directeur de thèse\\[0mm]}
+\def\UGTDirectrice#1#2{{\bfseries\fontsize{11}{10}\selectfont#1}\\ [-2mm]#2, Directrice de thèse\\[0mm]}
+\def\UGTCoDirecteur#1#2{{\bfseries\fontsize{11}{10}\selectfont#1}\\ [-2mm]#2, Co-Directeur de thèse\\[0mm]}
+\def\UGTCoEncadrant#1#2{{\bfseries\fontsize{11}{10}\selectfont#1}\\ [-2mm]#2, Co-Encadrant de thèse\\[0mm]}
 
 
 
@@ -190,9 +190,9 @@ d’étudiant}
             \newpage}
 
 \newcommand\@Thesis@titlep@ge{\fboxsep=0pt
-\fbox{{\parbox[t][28cm][b]{5.6cm}{\hfil\@UniversityLogot\hfil\par}}\hskip5mm\parbox[t][28cm]{12.9cm}{
+\fbox{{\parbox[t][28cm][b]{5.6cm}{\hfil\@UniversityLogot\hfil\par}}\hskip10mm\parbox[t][28cm]{12.4cm}{
        \vskip3mm plus1fil
-             \hskip2.96cm\@ThesisHead
+             \hskip5.46cm\@ThesisHead
        \vskip6mm
              {\bfseries\fontsize{16}{16}\selectfont\@ThesisType}
        \vskip3mm plus1fil
@@ -223,11 +223,10 @@ d’étudiant}
        \vskip12mm plus2fil
              \@ThesisDefendedThe\ {\bfseries\@ThesisPresentedThe},\\
              \@ThesisJuryTitle
-       \vskip8mm plus1fil
+       \vskip2mm plus1fil
 {\fontsize{10}{10}\selectfont\@ThesisJury}
        \vskip20mm plus1fil
                       }\hskip3mm
-    }
-                 }
+    }          }
 %
 \endinput
